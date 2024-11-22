@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(38, 40, 46);
+  }
+  h1 {
+    text-align: center;
+    color: white
+  }
+  h2 {
+      color: rgb(250, 108, 101);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  th, td {
+    border: 1px solid rgb(169, 43, 36);
+    padding: 8px;
+    text-align: left;
+    color: white
+  }
+  th {
+    background-color: rgb(250, 108, 101);
+  }
+  section {
+    margin-bottom: 20px;
+  }
+  #driver-info {
+      color: white;
+  }
+  #achievements-info {
+      color: white;
+  }
