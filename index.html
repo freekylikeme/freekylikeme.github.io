@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>zz7</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<style>
+body {top: 0; left: 0; width: 99%; height: 97%;
+    position: absolute; display: table}
+  p {display: table-cell; vertical-align: middle; text-align: center}
+#timezone * {text-decoration: none;}
+
+
+</style>
+
+<script type="text/javascript">
+    // declare time zone formatting
+    let options = {
+        timeZone: 'US/Mountain',
+        hour: 'numeric',
+        minute: 'numeric',
+        second: 'numeric',
+    },
+    formatter = new Intl.DateTimeFormat([], options);
+
+    // set time
+    setInterval(
+        () => {
+            document.querySelector("#time").innerText = formatter.format(new Date());
+        }
+    , 1000)
+</script>
+</head>
+
+
+
+
+
+<p>
+<font size="7"><i><b>ZZ7</b></i></font> <br>
+<br>
+<img src="logo.jpg" style="width:560px;"><br>
+<br>
+<span id=timezone>
+<i>
+
+</i>
+</span>
+<br><br>
+
+<a href="about">o mnie</a> //
+<a href="faq">faq</a> //
+<a href="blog">blog</a> //
+<a href="kontakt/">contact</a>
+
+<br>
+<br>
+</body>
+</html>
